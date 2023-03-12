@@ -1,0 +1,30 @@
+body{
+    color:violet;
+    background-color:steelblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    background-color:purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+}
+
+h1,h2,h3,h4{
+    color:coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a:link{
+    color:deeppink;
+}
+
+a:visited{
+    color:azure;
+}
+
+a:hover{
+    color:deeppink;
+    text-decoration:underline;
+}

@@ -1,18 +1,19 @@
 body{
-    color:violet;
-    background-color: darkslateblue;
-    font-family:'Times New Roman', Times, serif;
+    color: black;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1{
-    background-color:purple;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:deeppink;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:xx-large;
+    color: whitesmoke;
 }
 
-h1,h2,h3,h4{
-    color:coral;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h2,h3,h4{
+    color:deeppink;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -21,10 +22,18 @@ a:link{
 }
 
 a:visited{
-    color:azure;
+    color:darkmagenta;
 }
 
 a:hover{
-    color:deeppink;
+    color:darkred;
     text-decoration:underline;
+}
+
+form{
+    background-color: aqua;
+}
+
+table{
+    background-color: aqua;
 }

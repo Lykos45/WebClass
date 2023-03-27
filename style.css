@@ -14,7 +14,6 @@ h1{
 h2,h3,h4{
     color:deeppink;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 a:link{
@@ -26,14 +25,14 @@ a:visited{
 }
 
 a:hover{
-    color:darkred;
+    color:darkblue;
     text-decoration:underline;
 }
 
 form{
-    background-color: aqua;
+    background-color: lightgray;
 }
 
 table{
-    background-color: aqua;
+    background-color: lightgray;
 }

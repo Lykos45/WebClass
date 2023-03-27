@@ -26,6 +26,7 @@
 
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="layout.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 
     <title>Rolling Stones Contact Us</title>
 </head>
@@ -40,18 +41,20 @@
         <a href="gallery.html">Gallery</a>
         <a href="contact-us.html">Contact us</a>
      </nav>
+     <br>
+     <br>
     <section>
         <h2>Contact Us</h2>
-        <form action="https://2learnweb.brookhavencollege.edu/TheRollingStones/contact-us.html" method="get">
+        <form class="w3-container" action="https://2learnweb.brookhavencollege.edu/TheRollingStones/contact-us.html" method="get">
             <fieldset>
                 <legend>Your details:</legend>
                 <label>
                     name:
-                    <input type="text" name="name" size="30" maxlength="100">
+                    <input class="w3-input w3-border" type="text" name="name" size="30" maxlength="100">
                 </label>
                 <label>
                     email:
-                    <input type="text" name="email" size="30" maxlength="100">
+                    <input class="w3-input w3-border" type="text" name="email" size="30" maxlength="100">
                 </label>
             </fieldset>
             <fieldset>
@@ -70,15 +73,15 @@
                 <p>
                     Would you visit again?
                     <label>
-                        <input type="radio" name="rating" value="yes" />
+                        <input class="w3-input w3-border" type="radio" name="rating" value="yes" />
                         Yes
                     </label>
                     <label>
-                        <input type="radio" name="rating" value="no" />
+                        <input class="w3-input w3-border" type="radio" name="rating" value="no" />
                         No
                     </label>
                     <label>
-                        <input type="radio" name="rating" value="maybe" />
+                        <input class="w3-input w3-border" type="radio" name="rating" value="maybe" />
                         Maybe
                     </label>
                 </p>
@@ -89,14 +92,14 @@
                     <textarea rows="4" cols="40" id="comments"></textarea>
                 </p>
                 <label>
-                    <input type="checkbox" name="subscribe" checked="checked" />
+                    <input class="w3-input w3-border" type="checkbox" name="subscribe" checked="checked" />
                     Sign me up for email updates
                 </label>
-                <input type="submit" value="Submit review" />
+                <input class="w3-input w3-border w3-pink w3-hover-aqua" type="submit" value="Submit review" />
             </fieldset>
         </form>
         <h2>Tour Dates</h2>
-        <table>
+        <table class="w3-table w3-bordered">
             <thead>
                 <tr>
                     <th scope="col">Date</th>
@@ -139,9 +142,17 @@
         </table>
     </section>
     <hr>
-    <footer>
+    <div class="w3-card w3-grey">
+        <header class="w3-container"></header>
+        <h1>My card</h1>
+        <p>This website was designed by Carlos Nuno</p>
+        <footer class="w3-container">
+            <h5>Student of DCCCD</h5>
+        </footer>
+    </div>
+    <footer class="w3-panel w3-yellow">
         <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College,</a> <a
-            href="mailto:sherd@dallascollege.edu">Mail to webmaster,</a> <mark>Last update 3/12/23</mark>
+            href="mailto:sherd@dallascollege.edu">Mail to webmaster,</a> <p>Last update 3/26/23 work in progress</p>
     </footer>
 </body>
 

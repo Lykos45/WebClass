@@ -24,22 +24,23 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="layout.css"/>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <title>Rolling Stones Contact Us</title>
 </head>
 
-<body>
+<body class="w3-gray">
     <header>
         <h1>The Rolling Stones</h1>
     </header>
     <nav class="topnav">
-        <a class="active" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="faq.html">FAQ</a>
         <a href="gallery.html">Gallery</a>
-        <a href="contact-us.html">Contact us</a>
+        <a class="active" href="contact-us.html">Contact us</a>
+        <a href="about.html">About me</a>
      </nav>
      <br>
      <br>
@@ -73,15 +74,15 @@
                 <p>
                     Would you visit again?
                     <label>
-                        <input class="w3-input w3-border" type="radio" name="rating" value="yes" />
+                        <input class="w3-radio w3-border" type="radio" name="rating" value="yes">
                         Yes
                     </label>
                     <label>
-                        <input class="w3-input w3-border" type="radio" name="rating" value="no" />
+                        <input class="w3-radio w3-border" type="radio" name="rating" value="no">
                         No
                     </label>
                     <label>
-                        <input class="w3-input w3-border" type="radio" name="rating" value="maybe" />
+                        <input class="w3-radio w3-border" type="radio" name="rating" value="maybe">
                         Maybe
                     </label>
                 </p>
@@ -92,14 +93,14 @@
                     <textarea rows="4" cols="40" id="comments"></textarea>
                 </p>
                 <label>
-                    <input class="w3-input w3-border" type="checkbox" name="subscribe" checked="checked" />
+                    <input class="w3-check w3-border" type="checkbox" name="subscribe" checked="checked">
                     Sign me up for email updates
                 </label>
-                <input class="w3-input w3-border w3-pink w3-hover-aqua" type="submit" value="Submit review" />
+                <input class="w3-button w3-border w3-pink w3-hover-aqua" type="submit" value="Submit review">
             </fieldset>
         </form>
         <h2>Tour Dates</h2>
-        <table class="w3-table w3-bordered">
+        <table class="w3-table w3-centered w3-border w3-bordered w3-border-red">
             <thead>
                 <tr>
                     <th scope="col">Date</th>
@@ -141,7 +142,6 @@
             </tfoot>
         </table>
     </section>
-    <hr>
     <div class="w3-card w3-grey">
         <header class="w3-container"></header>
         <h1>My card</h1>
@@ -150,10 +150,10 @@
             <h5>Student of DCCCD</h5>
         </footer>
     </div>
-    <footer class="w3-panel w3-yellow">
-        <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College,</a> <a
-            href="mailto:sherd@dallascollege.edu">Mail to webmaster,</a> <p>Last update 3/26/23 work in progress</p>
-    </footer>
+    <footer class="w3-container w3-panel w3-yellow w3-center">
+        <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a> <a
+            href="mailto:sherd@dallascollege.edu">Mail to webmaster</a> <p>Last update 4/2/23 work in progress</p>
+      </footer>
 </body>
 
 </html>

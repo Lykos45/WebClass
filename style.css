@@ -1,6 +1,5 @@
 body{
     color: black;
-    background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -30,9 +29,9 @@ a:hover{
 }
 
 form{
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 table{
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
